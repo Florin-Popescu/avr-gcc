@@ -1,5 +1,7 @@
 INSTALL_DIR=/home/avr-gcc
 
+./contrib/download_prerequisites
+
 mkdir build
 cd build
 
