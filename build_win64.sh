@@ -3,6 +3,9 @@ INSTALL_DIR=/home/avr-gcc
 mkdir build
 cd build
 
+PATH=$PATH:$INSTALL_DIR/bin
+export PATH
+
 ../configure \
 --prefix=$INSTALL_DIR \
 --target=avr \
