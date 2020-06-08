@@ -1,1 +1,11 @@
 *.{c,C,cc,h} whitespace=indent-with-non-tab,space-before-tab,trailing-space
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+
+# Declare files that will always have CRLF line endings on checkout.
+
+# Denote all files that are truly binary and should not be modified.
