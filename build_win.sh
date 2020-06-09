@@ -1,4 +1,4 @@
-INSTALL_DIR=/home/avr
+INSTALL_DIR=/c/avr
 
 mkdir ../build
 cd ../build
@@ -6,6 +6,7 @@ cd ../build
 PATH=$INSTALL_DIR/bin:$PATH
 export PATH
 
+CC=x86_64-w64-mingw32-gcc \
 CFLAGS='-D__USE_MINGW_ACCESS' \
 LDFLAGS='-L/usr/local/lib -Wl,-rpath,/usr/local/lib' \
 ../avr-gcc/configure \
