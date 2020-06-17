@@ -18307,10 +18307,11 @@ architecture and depends on the @option{-mmcu=@var{mcu}} option.
 Possible values are:
 
 @code{2}, @code{25}, @code{3}, @code{31}, @code{35},
-@code{4}, @code{5}, @code{51}, @code{6}
+@code{4}, @code{5}, @code{51}, @code{6}, @code{8}
 
 for @var{mcu}=@code{avr2}, @code{avr25}, @code{avr3}, @code{avr31},
 @code{avr35}, @code{avr4}, @code{avr5}, @code{avr51}, @code{avr6},
+@code{avr8x},
 
 respectively and
 
