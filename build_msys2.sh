@@ -21,7 +21,7 @@ LDFLAGS='-L/usr/local/lib -Wl,-rpath,/usr/local/lib' \
 --disable-nls \
 --disable-libssp \
 --disable-libada \
---disable-shared \
+--disable-shared
 
 make -j $NUMBER_OF_PROCESSORS
 make install
