@@ -48,10 +48,6 @@
 ``Enhanced'' devices with 3-byte PC, i.e.@: with more than 128@tie{}KiB of program memory.
 @*@var{mcu}@tie{}= @code{atmega256rfr2}, @code{atmega2560}, @code{atmega2561}, @code{atmega2564rfr2}.
 
-@item avr8x
-``megaAVR 0 series'' devices with up to 48@tie{}KiB of program memory.
-@*@var{mcu}@tie{}= @code{atmega4808}.
-
 @item avrxmega2
 ``XMEGA'' devices with more than 8@tie{}KiB and up to 64@tie{}KiB of program memory.
 @*@var{mcu}@tie{}= @code{atxmega8e5}, @code{atxmega16a4}, @code{atxmega16a4u}, @code{atxmega16c4}, @code{atxmega16d4}, @code{atxmega16e5}, @code{atxmega32a4}, @code{atxmega32a4u}, @code{atxmega32c3}, @code{atxmega32c4}, @code{atxmega32d3}, @code{atxmega32d4}, @code{atxmega32e5}.

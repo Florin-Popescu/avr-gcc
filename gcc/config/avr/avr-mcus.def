@@ -7,12 +7,12 @@
    it under the terms of the GNU General Public License as published by
    the Free Software Foundation; either version 3, or (at your option)
    any later version.
-   
+
    GCC is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
    GNU General Public License for more details.
-   
+
    You should have received a copy of the GNU General Public License
    along with GCC; see the file COPYING3.  If not see
    <http://www.gnu.org/licenses/>.  */
@@ -39,7 +39,7 @@
 	AVR_MCU (NAME, ARCH, ATTR, MACRO, TDATA, TTEXT, FLASH_SIZE, PM_OFFSET)
 
    where the arguments are the fields of avr_mcu_t:
-   
+
 	NAME	Name of the device as specified by -mmcu=<NAME>.  Also
 		used by DRIVER_SELF_SPECS and gen-avr-mmcu-specs.c for
 		- the name of the device specific specs file
@@ -292,9 +292,6 @@ AVR_MCU ("atmega2560",       ARCH_AVR6, AVR_ISA_NONE, "__AVR_ATmega2560__",     
 AVR_MCU ("atmega2561",       ARCH_AVR6, AVR_ISA_NONE, "__AVR_ATmega2561__",        0x0200, 0x0, 0x40000, 0)
 AVR_MCU ("atmega256rfr2",    ARCH_AVR6, AVR_ISA_NONE, "__AVR_ATmega256RFR2__",     0x0200, 0x0, 0x40000, 0)
 AVR_MCU ("atmega2564rfr2",   ARCH_AVR6, AVR_ISA_NONE, "__AVR_ATmega2564RFR2__",    0x0200, 0x0, 0x40000, 0)
-/* megaAVR 0 series, Flash <= 48K */
-AVR_MCU ("avr8x",            ARCH_AVR8X, AVR_ISA_NONE, NULL,                       0x2800, 0x0, 0xC000, 0)
-AVR_MCU ("atmega4808",       ARCH_AVR8X, AVR_ISA_NONE, "__AVR_ATmega4808__",       0x2800, 0x0, 0xC000, 0)
 /* Xmega, 16K <= Flash < 64K, RAM <= 64K */
 AVR_MCU ("avrxmega2",        ARCH_AVRXMEGA2, AVR_ISA_NONE, NULL,                   0x2000, 0x0, 0x9000, 0)
 AVR_MCU ("atxmega8e5",       ARCH_AVRXMEGA2, AVR_ISA_NONE, "__AVR_ATxmega8E5__",   0x2000, 0x0, 0x2800, 0)
