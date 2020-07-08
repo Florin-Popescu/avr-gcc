@@ -2,6 +2,7 @@
 GNU Compiler Collection for AVR microcontrollers
 
 ## Changes from official repo
+- Workaround for symlinks created during build so it works on Windows without need to enable symlinks on each build machine
 - Added support for ATmega324PB
 - Added support for ATmega4808
 
