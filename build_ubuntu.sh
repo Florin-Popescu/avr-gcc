@@ -3,10 +3,6 @@
 mkdir build
 cd build
 
-chmod +x ../configure
-chmod +x ../fixincludes/configure
-chmod +x ../move-if-change
-chmod +x ../libgcc/mkheader.sh
 ../configure \
 --target=avr \
 --enable-languages=c,c++ \
