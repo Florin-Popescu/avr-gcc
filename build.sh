@@ -14,10 +14,10 @@ case $(uname -o | cut -d '/' -f2) in
 		;;
 esac
 
-mkdir build
-cd build
+mkdir ../build
+cd ../build
 
-../configure \
+../avr-gcc/configure \
 --target=avr \
 --enable-languages=c,c++ \
 --with-dwarf2 \

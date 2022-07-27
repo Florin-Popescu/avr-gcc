@@ -7,9 +7,9 @@ PACKAGE="$TOOL"_"$OS"_"$ARCH"
 export DESTDIR="$(pwd)/""$PACKAGE"
 
 mkdir $DESTDIR
-cd build
+cd ../build
 make install
-cd ..
+cd ../avr-gcc
 
 case $(uname -o | cut -d '/' -f2) in
 	"Msys")
