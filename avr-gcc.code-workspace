@@ -7,6 +7,7 @@
 	"settings": {
 		"files.watcherExclude": {
 			"**/testsuite/**": true
-		}
+		},
+		"git.ignoreLimitWarning": true
 	}
 }
